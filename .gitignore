@@ -1,4 +1,23 @@
+# Environment
 .env
+
+# Dataset (too large for git)
 dataset/
+
+# YOLO training outputs
 runs/
+
+# Model weights
 *.pt
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
