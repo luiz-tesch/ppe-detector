@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--source", default="0", help="Video file path or 0 for webcam")
-parser.add_argument("--weights", default="runs/detect/ppe_detector/weights/best.pt")
+parser.add_argument("--weights", default="runs/detect/ppe_detector4/weights/best.pt")
 args = parser.parse_args()
 
 model = YOLO(args.weights)

@@ -2,7 +2,11 @@
 .env
 
 # Dataset (too large for git)
-dataset/
+dataset/train/
+dataset/valid/
+dataset/test/
+dataset/README.dataset.txt
+dataset/README.roboflow.txt
 
 # YOLO training outputs
 runs/

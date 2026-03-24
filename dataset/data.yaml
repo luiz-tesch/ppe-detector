@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['head', 'helmet', 'hi-viz helmet', 'hi-viz vest', 'person', 'random']
+
+roboflow:
+  workspace: workspace-epi
+  project: hard-hat-universe-0dy7t-tbkpp
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/workspace-epi/hard-hat-universe-0dy7t-tbkpp/dataset/1
