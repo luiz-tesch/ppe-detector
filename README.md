@@ -24,6 +24,13 @@ source venv/Scripts/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+**GPU support (recommended):** The default `pip install` installs PyTorch CPU-only. For NVIDIA GPU training, install the CUDA version first:
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+
+**Dataset:** Download the [Hard Hat Universe v1](https://universe.roboflow.com/workspace-epi/hard-hat-universe-0dy7t-tbkpp/dataset/1) dataset in YOLOv8 format and extract it into `dataset/`.
+
 ## Usage
 
 **Train:**
